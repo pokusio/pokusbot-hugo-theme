@@ -1,0 +1,22 @@
+{{ define "profile" }}
+ 	{{ partial "profile-all-bots.html" . }}
+{{ end }}
+
+{{ define "main" }}
+
+<div class="container my-gap">
+
+  <div class="column col-2">
+    <div class="nuagedetags">
+      <h2>Nuage de tags</h2>
+      {{ partial "cube.html" . }}
+    </div>
+  </div>
+  <div class="column col-8">
+    {{ partial "post-list.html"  . }}
+    {{ partial "pagination.html" . }}
+  </div>
+  <div class="column col-2">ALOOOO col-2</div>
+
+</div>
+{{ end }}

@@ -1,0 +1,35 @@
+{{ define "main" }}
+<div class="container my-gap">
+
+	<!--
+  <div class="columns cloudie">
+		<div class="column col-4">
+		</div>
+		<div class="column col-4 nuagedetags">
+			<div class="nuagedetags">
+        {{ partial "cube.html" . }}
+      </div>
+		</div>
+		<div class="column col-4"></div>
+
+	</div> -->
+	<div class="columns">
+    <div class="column col-4">
+    </div>
+    <div class="column col-4">
+      {{ partial "profile.html" . }}
+    </div>
+    <div class="column col-4"></div>
+
+  </div>
+	<div class="columns">
+		<div class="column col-2">
+    </div>
+		<div class="column col-8">
+      {{ partial "post-list.html"  . }}
+      {{ partial "pagination.html" . }}
+    </div>
+		<div class="column col-2"></div>
+	</div>
+</div>
+{{ end }}
