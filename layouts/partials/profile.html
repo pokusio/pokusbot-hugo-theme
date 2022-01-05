@@ -1,0 +1,12 @@
+<header class="container p-centered text-center mt-space">
+  <a class="avatar avatar-profile" href="{{ "about" | absURL }}">
+    <img id="profile">
+  </a>
+  <div class="my-2 py-2">
+    <h3>{{ .Site.Params.name }} {{ if .Type }}<span class="text-clip"><code>[ {{ .Type }} ]</code></span>{{ end }}</h3>
+    <h5 class="text-gray text-italic">Activity timeline of Robot : <code>{{ .Type }}</code></h5>
+  </div>
+  <div class="my-2 py-2">
+    <h5 class="text-gray text-italic">{{ .Content }}</h5>
+  </div>
+</header>

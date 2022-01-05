@@ -1,0 +1,20 @@
+{{ define "profile" }}
+	{{ partial "profile-all-bots.html" . }}
+{{ end }}
+
+{{ define "main" }}
+<div class="container">
+	<h1>COlonnes Spectre<h1>
+	<div class="columns">
+		<div class="column col-2">ALOOOO col-2</div>
+		<div class="column col-8">ALOOOO col-8</div>
+		<div class="column col-2">ALOOOO col-2</div>
+	</div>
+</div>
+<div class="container my-gap">
+
+	{{ partial "cube.html"  . }}
+	{{ partial "post-list.html"  . }}
+ 	{{ partial "pagination.html" . }}
+</div>
+{{ end }}
