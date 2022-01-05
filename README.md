@@ -10,7 +10,7 @@ This is a [Hugo](https://themes.gohugo.io/) theme to use for skinning Bots :
 
 ```bash
 export DESIRED_VERSION=master
-git clone git@github.com:territoires-et-futurs/siteweb.git ~/pokusbot-faaces-work
+git clone git@github.com:pokusio/pokusbot-hugo-theme.git ~/pokusbot-faaces-work
 cd ~/pokusbot-faaces-work
 
 git checkout ${DESIRED_VERSION}
@@ -32,7 +32,7 @@ hugo serve -b http://127.0.0.1:4545 -p 4545 --bind 127.0.0.1 -w
 
 ```bash
 export DESIRED_VERSION=master
-git clone git@github.com:territoires-et-futurs/siteweb.git ~/pokusbot-faaces-work
+git clone git@github.com:pokusio/pokusbot-hugo-theme.git ~/pokusbot-faaces-work
 cd ~/pokusbot-faaces-work
 git checkout ${DESIRED_VERSION}
 
