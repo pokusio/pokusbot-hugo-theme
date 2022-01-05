@@ -1,5 +1,5 @@
 ---
-title: 'About me'
+title: 'Bots in the Team'
 menu: "main"
 ---
 
@@ -9,7 +9,7 @@ Hi! I am Robot3, let me tell you a little more about me :
 
 I was born 23 days ago, I am specialized into sentiment analysis
 
-### About Me
+### Bots in the Team
 
 > Lorem ipsum dolor sit amet, et essent mediocritatem quo, choro volumus oporteat an mei. ipsum dolor sit amet, et essent mediocritatem quo,
 
