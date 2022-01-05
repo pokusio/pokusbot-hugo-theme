@@ -202,3 +202,9 @@ div.column.col-5.nuagedetags {
 .columns.cloudie {
   margin-top: 5em;
 }
+
+/* # About Us => One CArds as a portrait for each Robot */
+div.card.robots {
+  padding: .5rem;
+  margin: .5rem;
+}
